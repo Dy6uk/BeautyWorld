@@ -1,0 +1,27 @@
+{
+  "name": "beautyworld",
+  "version": "1.0.0",
+  "description": "Сергей Дубоносов",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dy6uk/BeautyWorld.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dy6uk/BeautyWorld/issues"
+  },
+  "homepage": "https://github.com/Dy6uk/BeautyWorld#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.55.0"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.2"
+  }
+}
