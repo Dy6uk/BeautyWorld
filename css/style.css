@@ -50,7 +50,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 .header {
 	max-width: 100%;
 	height: 597px;
-	background: url('../img/kpacota.png') 658px 81px/524px 510px no-repeat;
+	background: url('../images/kpacota.png') 658px 81px/524px 510px no-repeat;
 }
 
 .container {
