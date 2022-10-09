@@ -38,14 +38,27 @@ img{vertical-align: top;}
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 /*--------------------*/
 @import 'libs';
+@media only screen and (max-width: 1280px) { 
+} 
+@media only screen and (max-width: 992px) { 
+} 
+@media only screen and (max-width: 768px) {
+} 
+@media only screen and (max-width: 480px) { 
+} 
+@media only screen and (max-width: 320px) { 
+}
+
+
+
 .body{
 	font-family: 'Montserrat';
 	font-style: normal;
 }
 
 .wrapper {
-	display:flex;
-  	flex-direction:column;
+	
+  	
 }
 .header {
 	max-width: 100%;
@@ -169,7 +182,7 @@ line-height: 29px;
 }
 
 .container2 {
-	flex: 1 1 auto;
+	
 	max-width: 1109px;
 	margin: 0 auto;
 	margin-top: 94px;
@@ -304,3 +317,4 @@ h3 {
 .menu__text2 a:hover {
 	text-decoration: 2px underline #278AFF;	
 }
+
