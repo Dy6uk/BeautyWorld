@@ -8,11 +8,12 @@ function buildSass() {
         .pipe(sass({ includePaths: ['./node_modules'] }).on('error', sass.logError))
         .pipe(dest('src/css'))
         .pipe(dest('dist/css'));
-       
+        .pipe(browserSync.stream());
 }
 
 function buildHtml() {
     return src('src/**/*.html').pipe(dest('dist'));
+    .pipe(browserSync.stream());
     
 }
 
