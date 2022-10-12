@@ -57,6 +57,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 	max-width: 100%;
 	height: 597px;
 	background: url('../images/kpacota.png') 658px 81px/524px 510px no-repeat;
+	
 }
 
 .container {
@@ -176,7 +177,10 @@ line-height: 29px;
 	height: 128px;
 }
 
-.main {flex: 1 1 auto;}
+.main {
+	display:flex;
+	flex-direction:column;
+}
 
 .container2 {
 	
@@ -260,22 +264,70 @@ h3 {
 	text-align: center;
 }
 
-.section {
-	display:flex;
-	flex-direction:column;
-	height: 819px;
-}
+
 .container4 {
+	margin: 0 auto;
 	padding-top: 100px;
 }
 
-
-.section__inner{
+.section{
 	flex: 1 1 auto;
+	margin: auto;
+&__title{
+	font-weight: 700;
+	font-size: 48px;
+	line-height: 59px;
+	color: #333333;
+}
+&__inner{
+	flex: 1 1 auto;
+	max-width: 1109px;
+}
+}
+.services{
+	margin-top: -48px;
+}
+.services > div {
+	margin-top: 48px;
+}
+.service {
+&__img{
+	height: 100%;
+	width: auto;
+	border-radius: 8px;
+	
+}
+&__title{
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 22px;
+	color: #333333;
+	padding-top: 20px;
+}
+&__descr{
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 20px;
+	color: #333333;
+	padding-top: 8px;
+}
+&__btn{
+	width: 112px;
+	height: 34px;
+	background: #FB9475;
+	border-radius: 17px;
+	
 }
 
-
-
+}
+.service__btn p {
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 14px;
+	text-align: center;
+	color: #FFFFFF;
+	Padding: 10px 20px 10px 20px;
+}
 
 
 
