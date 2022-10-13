@@ -331,9 +331,11 @@ h3 {
 
 
 .container5{
+	padding-bottom: 100px;
 	padding-top: 100px;
 	max-width: 1109px;
 	margin: 0 auto;
+
 }
 
 
@@ -399,6 +401,67 @@ h3 {
 	justify-content:space-between;
 
 }
+
+.container6{
+	padding-top: 80px;
+	max-width: 1110px;
+	margin: 0 auto;
+	padding-bottom: 80px;
+}
+
+.master{
+	background: #F8F6F7;
+	&__header{}
+	&__title{
+		font-weight: 700;
+		font-size: 48px;
+		line-height: 59px;
+		color: #333333;
+		padding-bottom: 32px;
+	}
+	&__subtitle{
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 20px;
+		color: #333333;
+		margin-bottom: 24px;
+	}
+}
+
+.gall{
+	max-width: 255px;
+	&__picture{}
+	&__img{
+		max-width: 255px;
+		border-radius: 8px;
+		align-self: center;
+	}
+	&__title{
+		font-weight: 600;
+		font-size: 18px;
+		line-height: 22px;
+		color: #333333;
+		padding-top: 20px;
+	}
+	&__sab{
+		font-weight: 400;
+		font-size: 14px;
+		line-height: 17px;
+		color: #333333;
+		padding-top: 8px;
+	}
+	&__byyk{
+		font-weight: 300;
+		font-size: 12px;
+		line-height: 15px;
+		text-transform: uppercase;
+		color: #333333;
+		padding-top: 20px;
+	}
+}
+
+
+
 
 
 
