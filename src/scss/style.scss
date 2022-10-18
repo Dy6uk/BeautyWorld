@@ -412,7 +412,6 @@ h3 {
 
 .master{
 	background: #F8F6F7;
-	&__header{}
 	&__title{
 		font-weight: 700;
 		font-size: 48px;
@@ -431,7 +430,6 @@ h3 {
 
 .gall{
 	max-width: 255px;
-	&__picture{}
 	&__img{
 		max-width: 255px;
 		border-radius: 8px;
@@ -462,8 +460,28 @@ h3 {
 }
 
 
+.container7{
 
+}
 
+.work{
+	&__header{
+		max-width: 355px;
+		margin: 0 auto;
+		display: flex;
+		justify-content:space-between;
+	}
+	&__title{
+		font-weight: 700;
+		font-size: 48px;
+		line-height: 59px;
+		color: #333333;
+	}
+	&__strelki{}
+	&__img{
+		display: flex;
+	}
+}
 
 
 
