@@ -466,10 +466,12 @@ h3 {
 
 .work{
 	&__header{
-		max-width: 355px;
+		max-width: 1110px;
 		margin: 0 auto;
 		display: flex;
 		justify-content:space-between;
+		align-items:center;
+		padding-top: 80px;
 	}
 	&__title{
 		font-weight: 700;
@@ -477,9 +479,27 @@ h3 {
 		line-height: 59px;
 		color: #333333;
 	}
-	&__strelki{}
+	&__strelki{
+		max-width: 96px;
+		align-items: center;
+	}
 	&__img{
 		display: flex;
+		flex-direction: row;
+		padding: 0px;
+		gap: 16px;
+	}
+	&__galley{
+		padding-top: 52px;
+		
+	}
+}
+
+.rabota{
+	&__foto{
+		border-radius: 8px;
+		max-width: 338px;
+		min-height: 338px;
 	}
 }
 
