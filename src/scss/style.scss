@@ -610,15 +610,95 @@ h3 {
 
 
 .Recording{
-width: 445px;
-height: 406px;
-background: #FFFFFF;
-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
-border-radius: 8px;
+	width: 445px;
+	height: 406px;
+	background: #FFFFFF;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+	border-radius: 8px;
+
+
+	&__rec{
+		width: 375px;
+		height: 326px;
+		padding-top: 40px;
+		padding-left: 35px;
+
+	}
+
+	&__title {
+		font-weight: 600;
+		font-size: 18px;
+		line-height: 14px;
+		color: #333333;
+
+	}
+
+	&__subtitle {
+		font-weight: 400;
+		font-size: 14px;
+		line-height: 20px;
+		color: #333333;
+		padding-top: 15px;
+	}
+
+	&__user {
+		
+		border: 1px solid #D8D8D8;
+		border-radius: 4px;
+		width: 375px;
+		height: 44px;
+
+
+		
+	}
+
+	&__telif {
+
+		border: 1px solid #D8D8D8;
+		border-radius: 4px;
+		font-weight: 400;
+		height: 44px;
+		width: 375px;
+	}
+
+
+	&__bth {
+		align-items: center;
+		width: 375px;
+		height: 48px;
+		background: #FB9475;
+		border-radius: 24px;
+		padding: 17px 30px;
+	}
+
+	&__bth p {
+		font-weight: 500;
+		font-size: 14px;
+		line-height: 14px;
+		text-align: center;
+		color: #FFFFFF;
+	}
+
+	&__text{
+		width: 345px;
+		height: 30px;
+		font-weight: 300;
+		font-size: 12px;
+		line-height: 15px;
+		color: #333333;
+	}
+
+	
 }
 
-
-
+.Recording input {
+		font-weight: 400;
+		font-size: 14px;
+		line-height: 14px;
+		color: #A0A0A0;
+		padding-top: 15px;
+		padding-left: 16px;
+}
 
 
 .footer {
