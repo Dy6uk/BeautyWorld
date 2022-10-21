@@ -622,7 +622,6 @@ h3 {
 		height: 326px;
 		padding-top: 40px;
 		padding-left: 35px;
-
 	}
 
 	&__title {
@@ -630,7 +629,7 @@ h3 {
 		font-size: 18px;
 		line-height: 14px;
 		color: #333333;
-
+		margin: 0;
 	}
 
 	&__subtitle {
@@ -639,26 +638,25 @@ h3 {
 		line-height: 20px;
 		color: #333333;
 		padding-top: 15px;
+		padding-bottom: 35px;
+		margin: 0;
 	}
 
 	&__user {
-		
 		border: 1px solid #D8D8D8;
 		border-radius: 4px;
 		width: 375px;
 		height: 44px;
-
-
 		
 	}
 
 	&__telif {
-
 		border: 1px solid #D8D8D8;
 		border-radius: 4px;
 		font-weight: 400;
 		height: 44px;
 		width: 375px;
+
 	}
 
 
@@ -670,6 +668,7 @@ h3 {
 		border-radius: 24px;
 		padding: 17px 30px;
 	}
+
 
 	&__bth p {
 		font-weight: 500;
@@ -686,18 +685,26 @@ h3 {
 		font-size: 12px;
 		line-height: 15px;
 		color: #333333;
+		padding-top: 16px;
 	}
 
-	
 }
 
 .Recording input {
-		font-weight: 400;
-		font-size: 14px;
-		line-height: 14px;
-		color: #A0A0A0;
-		padding-top: 15px;
-		padding-left: 16px;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 14px;
+	color: #A0A0A0;
+	padding-top: 15px;
+	padding-left: 16px;
+}
+
+.Recording form{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 0px;
+	gap: 20px;
 }
 
 
