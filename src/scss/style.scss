@@ -182,86 +182,94 @@ line-height: 29px;
 	flex-direction:column;
 }
 
-.container2 {
-	
-	max-width: 1109px;
+
+
+.salone {
+	padding-top: 100px;
 	margin: 0 auto;
-	margin-top: 94px;
-}
-
-h3 {
-	width: 239.65px;
-	height: 59.16px;
-	font-weight: 700;
-	font-size: 48px;
-	line-height: 59px;
-	color: #333333;
-	margin-bottom: 32.09px;
-}
-
-.o_salone {
-	width: 1109px;
-	height: 387.31px;
+	max-width: 1109px;
 	display: flex;
 	justify-content:space-between;
+	align-items:flex-end;
+	flex-wrap:wrap;
+
+	&__text {}
+
+	&__title {
+		font-weight: 700;
+		font-size: 48px;
+		line-height: 59px;
+		color: #333333;
+	}
+
+	&__sabtitle {
+		max-width: 569.54px;
+		font-weight: 400;
+		font-size: 20px;
+		line-height: 32px;
+		color: #333333;
+		padding-top: 32.09px;
+	}
+
+	&__sabsabtitle {
+		max-width: 538.46px;
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 26px;
+		color: #333333;
+		padding-top: 16.04px;
+	}
+
+	&__video {
+		max-width: 445px;
+		
+	}
+
 }
 
-.text1 {
-	width: 569.54px;
-	height: 96.26px;
-	font-weight: 400;
-	font-size: 20px;
-	line-height: 32px;
-	color: #333333;
-	margin-bottom: 16.04px;
-}
 
-.text2 {
-	width: 538.46px;
-	height: 156.42px;
-	font-weight: 400;
-	font-size: 16px;
-	line-height: 26px;
-	color: #333333;
-}
-
-.row__body {
+.salon__row {
 	max-width: 1110px;
-	height: 176px;
+	margin: 0 auto;
+	padding-top: 99.70px;
+	gap: 30px;
 	display: flex;
 	flex-direction: row;
+	flex-wrap:wrap;
+	justify-content:space-between;
+	align-items:flex-end;
+
+}
+
+.roww {
+	display: flex;
+	flex-direction: column;
 	align-items: center;
-	padding: 0px;
-	justify-content:space-around;
-	margin-top: 99.70px;
-}
 
-.row__1{
-	display:flex;
-	flex-direction:column;
-	align-items:center;
-}
 
-.img1{
-	margin-bottom: 33.6px;
-}
 
-.row__11 h4 {
-	font-weight: 600;
-	font-size: 18px;
-	line-height: 22px;
-	color: #333333;
-	margin-bottom: 8px;
-	text-align: center;
-}
 
-.row__11 p {
-	height: 66px;
-	font-weight: 400;
-	font-size: 14px;
-	line-height: 22px;
-	color: #333333;
-	text-align: center;
+	&__img {
+
+	}
+
+	&__title {
+		padding-top: 28px;
+		font-weight: 600;
+		font-size: 18px;
+		line-height: 22px;
+		color: #333333;
+	}
+
+	&__text {
+		padding-top: 8px;
+		font-weight: 400;
+		font-size: 14px;
+		line-height: 22px;
+		text-align: center;
+		color: #333333;
+		max-width: 296px;
+	}
 }
 
 
@@ -284,12 +292,16 @@ h3 {
 	max-width: 1109px;
 }
 }
+
+
 .services{
 	margin-top: -48px;
 }
+
 .services > div {
 	margin-top: 48px;
 }
+
 .service {
 &__img{
 	height: 100%;
