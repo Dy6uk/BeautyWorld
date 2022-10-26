@@ -52,7 +52,33 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 	font-style: normal;
 }
 
-.container {}
+.container {
+	position: relative;
+	height: 597px;
+	overflow: hidden;
+
+		&__girl{
+   	width: 524px;
+    	height: 510px;
+    	left: 658px;
+		top: 87px;
+		position: absolute;
+		z-index: 1;
+  	}
+
+ 	&__kryg {
+   	width: 472px;
+   	height: 472px;
+   	background-color: #FB9475;
+   	position: absolute;
+   	border-radius: 50%;
+   	left: 707px;
+		top: 229px;
+   	z-index: 0;
+
+	}
+}
+
 
 .header {
 
@@ -76,7 +102,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
  		padding-top: 120px;
  		max-width: 1110px;
  		margin-top: 0 auto;
- }
+ 	}
 
 	
 	&__phone {}
@@ -187,8 +213,9 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 }
 
 
+
 .salone {
-	padding-top:  230px;
+	padding-top:  94px;
 	margin: 0 auto;
 	max-width: 1110px;
 	display: flex;
